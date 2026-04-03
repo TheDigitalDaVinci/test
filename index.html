@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Rock Foundations | Engineering Strong Foundations</title>
+    <meta name="description" content="Specialists in pile foundation contracting, soil investigation, and geotechnical testing. Engineering strong foundations that last generations.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-white">White Rock</span>
+                <span class="logo-accent">Foundations</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#process" class="nav-link">Process</a></li>
+                    <li><a href="#contact" class="btn btn-primary nav-btn">Get a Quote</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Piling rig at sunset">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="reveal">Engineering Strong Foundations That Last Generations</h1>
+            <p class="hero-subtext reveal">Specialists in pile foundations and geotechnical solutions.</p>
+            <div class="hero-actions reveal">
+                <a href="#contact" class="btn btn-primary">Request a Quote</a>
+                <a href="#projects" class="btn btn-outline">View Our Projects</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-dark texture-bg" id="about">
+        <div class="container about-container">
+            <div class="about-content reveal">
+                <span class="section-subtitle">Who We Are</span>
+                <h2>Strength Below the Surface</h2>
+                <p>At White Rock Foundations, we bring decades of engineering excellence to the forefront of construction. We specialize in precision-driven piling contracting, comprehensive soil investigation, and geotechnical testing to ensure your project stands on a reliable base.</p>
+                <ul class="about-highlights">
+                    <li><i class="fas fa-shield-alt"></i> Safety-First Approach</li>
+                    <li><i class="fas fa-cogs"></i> Advanced Machinery</li>
+                    <li><i class="fas fa-hard-hat"></i> Skilled Workforce</li>
+                </ul>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-box">
+                    <span class="stat-number" data-target="25">0</span>+
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" data-target="1500">0</span>+
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number" data-target="50">0</span>+
+                    <span class="stat-label">Modern Rigs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Expertise</span>
+                <h2>Comprehensive Geotechnical Solutions</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Pile Foundation Contracting</h3>
+                    <p>Expert execution of bored piles, driven piles, micro piles, and CFA piles for all soil types.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-microscope"></i></div>
+                    <h3>Soil Testing & Investigation</h3>
+                    <p>Accurate SPT, borehole drilling, and comprehensive laboratory testing and reporting.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3>Geotechnical Consultancy</h3>
+                    <p>In-depth soil analysis and strategic foundation recommendations for complex sites.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-search-location"></i></div>
+                    <h3>Site Preparation & Analysis</h3>
+                    <p>Thorough load-bearing studies and feasibility assessments before execution begins.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-dark" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Portfolio</span>
+                <h2>Built from the Ground Up</h2>
+            </div>
+            
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card reveal" data-category="infrastructure">
+                    <img src="images/project1.png" alt="Highway Bridge Foundation" class="project-img">
+                    <div class="project-info">
+                        <span class="project-cat">Infrastructure</span>
+                        <h3>Highway Bridge Foundation</h3>
+                        <p class="project-loc"><i class="fas fa-map-marker-alt"></i> Metro City Bypass</p>
+                        <p class="project-scope">Scope: 250 Bored Piles executed</p>
+                    </div>
+                </div>
+                <!-- Placeholder cards -->
+                <div class="project-card reveal" data-category="commercial">
+                    <div class="project-img placeholder-img"></div>
+                    <div class="project-info">
+                        <span class="project-cat">Commercial</span>
+                        <h3>Skyline Corporate Tower</h3>
+                        <p class="project-loc"><i class="fas fa-map-marker-alt"></i> Downtown Financial District</p>
+                        <p class="project-scope">Scope: High Capacity CFA Piles</p>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="residential">
+                    <div class="project-img placeholder-img"></div>
+                    <div class="project-info">
+                        <span class="project-cat">Residential</span>
+                        <h3>Oasis Luxury Condos</h3>
+                        <p class="project-loc"><i class="fas fa-map-marker-alt"></i> Westside Bay</p>
+                        <p class="project-scope">Scope: Driven Piles & Soil Testing</p>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="infrastructure">
+                    <div class="project-img placeholder-img"></div>
+                    <div class="project-info">
+                        <span class="project-cat">Infrastructure</span>
+                        <h3>Mainline Rail Extension</h3>
+                        <p class="project-loc"><i class="fas fa-map-marker-alt"></i> North Corridor</p>
+                        <p class="project-scope">Scope: Micro Piles for Retaining Walls</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">The White Rock Advantage</span>
+                <h2>Why Partner With Us?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item reveal">
+                    <i class="fas fa-bullseye"></i>
+                    <h4>Precision Engineering</h4>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fas fa-stopwatch"></i>
+                    <h4>Timely Execution</h4>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fas fa-truck-monster"></i>
+                    <h4>Modern Equipment</h4>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fas fa-users-cog"></i>
+                    <h4>Skilled Workforce</h4>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Cost Efficiency</h4>
+                </div>
+                <div class="feature-item reveal">
+                    <i class="fas fa-hard-hat"></i>
+                    <h4>Safety Compliance</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section-dark" id="process">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Methodology</span>
+                <h2>Foundations You Can Trust</h2>
+            </div>
+            <div class="process-timeline reveal">
+                <div class="process-step">
+                    <div class="step-icon">1</div>
+                    <h4>Site Evaluation</h4>
+                    <p>Initial site visit to assess accessibility and constraints.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">2</div>
+                    <h4>Soil Testing</h4>
+                    <p>Extracting samples and lab analysis for bearing capacity.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">3</div>
+                    <h4>Design Recommendation</h4>
+                    <p>Providing optimized foundation designs based on data.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">4</div>
+                    <h4>Execution</h4>
+                    <p>Deploying heavy machinery and executing precise piling.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">5</div>
+                    <h4>Quality Assurance</h4>
+                    <p>Integrity testing and load testing for absolute safety.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Client Feedback</span>
+                <h2>Trusted by Industry Leaders</h2>
+            </div>
+            <div class="testimonial-slider reveal">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"White Rock Foundations handled the challenging soil conditions of our commercial plaza perfectly. Their professionalism and adherence to strict timelines were impressive."</p>
+                    <div class="client-info">
+                        <h4>James Carter</h4>
+                        <span>Project Manager, Apex Builders</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info reveal">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2>Let’s Build Your Foundation Right</h2>
+                <p>Have a project in mind? Contact our engineering team for an accurate assessment and quote.</p>
+                
+                <ul class="contact-details">
+                    <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> engineering@whiterockfoundations.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 100 Industrial Pkwy, Engineering District</li>
+                </ul>
+
+                <div class="map-placeholder">
+                    <span>Google Maps Integration</span>
+                </div>
+            </div>
+            <div class="contact-form-wrapper reveal">
+                <form id="contactForm" class="form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project">Project Details</label>
+                        <textarea id="project" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit">Send Inquiry</button>
+                    <div class="form-msg" id="formMsg"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section-dark">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo">
+                    <span class="logo-white">White Rock</span>
+                    <span class="logo-accent">Foundations</span>
+                </a>
+                <p>Engineering strong foundations that last generations. We provide the base you can build upon safely.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Pile Contracting</a></li>
+                    <li><a href="#services">Soil Testing</a></li>
+                    <li><a href="#services">Consultancy</a></li>
+                    <li><a href="#services">Site Analysis</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 White Rock Foundations. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/15551234567" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
